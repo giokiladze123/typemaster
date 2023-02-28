@@ -1,0 +1,459 @@
+body {
+  width: 100%;
+}
+
+
+header {
+  padding: 27px 24px 0 24px;
+  display: flex;
+  gap: 137px;
+}
+
+header button {
+  width: 150px;
+  height: 48px;
+  border: none;
+  background: #e8eff2;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.textconteiner {
+  padding: 64px 24px 0 24px;
+}
+
+.textconteiner h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.improve-p {
+  margin-top: 32px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.textconteiner button {
+  width: 150px;
+  height: 48px;
+  border: none;
+  background: #f16718;
+  border-radius: 8px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.release-p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #7b8bad;
+}
+
+
+
+.button-p-conteiner {
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.mobilekeyboard {
+  margin-top: 65px;
+  margin-left: 25px;
+}
+
+.keyboardsconteiner {
+  margin-top: 25px;
+}
+
+.redkeyboardmob {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.glasskeyboard {
+  margin-left: 20px;
+}
+
+.mechanicaldiv {
+  padding:0 24px;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.wirelessdiv {
+  margin-left:35px;
+  width:255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.typemasterdiv {
+  margin-top:24px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-top: 111px;
+}
+
+.card {
+  padding: 0 24px 0 24px;
+  text-align: center;
+}
+
+.card-h {
+  width: 100%;
+  margin-top: 48px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #162542;
+}
+
+.card-p {
+  margin-top: 24px;
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.desktopicon {
+  text-align: center;
+}
+
+footer {
+  margin-top: 96px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+
+.tabletkeyboard {
+  display: none;
+}
+
+.redkeyboardtablet {
+  display: none;
+}
+
+.glasskeyboardtablet {
+  display: none;
+}
+
+.desktopkeyboard{
+  display:none;
+}
+
+.buttonimg{
+  display:none;
+}
+
+.glasskeyboarddesktop{
+  display:none;
+}
+
+.redkeyboarddesktop{
+  display:none;
+}
+
+.left-button{
+  display:none;
+}
+
+
+
+/* tablet version */
+
+@media screen and (min-width: 768px) {
+  header {
+    gap: 474px;
+    padding: 40px 39px 0 39px;
+  }
+
+  header button {
+    width: 175px;
+    height: 58px;
+  }
+
+  .textconteiner {
+    padding: 122px 390px 0 39px;
+  }
+
+  .textconteiner button {
+    width: 175px;
+    height: 58px;
+  }
+
+  .button-p-conteiner {
+    margin-top: 39px;
+    gap: 37px;
+  }
+
+  .improve-p {
+    margin-top: 34px;
+  }
+
+  .mobilekeyboard {
+    display: none;
+  }
+
+  .tabletkeyboard {
+    display: block;
+    position: absolute;
+    top: 160px;
+    right: 0;
+  }
+
+  .redkeyboardmob {
+    display: none;
+  }
+
+  .glasskeyboard {
+    display: none;
+  }
+
+  .redkeyboardtablet {
+    border-radius: 20px;
+    display: block;
+  }
+
+  .glasskeyboardtablet {
+    display: block;
+  }
+
+  .keyboardsconteiner {
+    padding: 0 40px 0 40px;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+  }
+
+  .mechanicaldiv {
+    padding:0;
+    display: flex;
+    gap: 70px;
+  }
+
+  .wirelessdiv {
+    padding:0;
+    text-align: left;
+    
+  }
+
+  .typemasterdiv {
+    margin-left:30px;
+    margin-right:40px;
+    text-align: left;
+   
+  }
+
+  section {
+    margin-left: 39px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    padding: 0;
+    text-align: left;
+    width: 281px;
+  }
+
+  .card-h{
+    margin-top:40px;
+  }
+
+  .card-p {
+    text-align: left;
+  }
+
+  footer{
+    margin-top:142px;
+    margin-bottom:43px;
+  }
+
+
+}
+
+
+/* desktop version */
+
+@media screen and (min-width: 1440px) {
+
+  header{
+    gap:895px;
+    padding:64px 165px 0 165px;
+  }
+
+  header button:hover{
+    background: #162542;
+    border-radius: 8px;
+    color:white;
+  }
+
+.tabletkeyboard{
+  display:none;
+}
+
+.desktopkeyboard{
+  display:block;
+  top:220px;
+  right:170px;
+  position:absolute;
+}
+
+.buttonimg{
+  display:block;
+  right:0;
+  top:220px;
+  position:absolute;
+}
+
+.redkeyboardtablet{
+  display:none;
+}
+
+.glasskeyboardtablet{
+  display:none;
+}
+
+.redkeyboarddesktop{
+  border-radius:20px;
+  display:block;
+}
+
+.glasskeyboarddesktop{
+  display:block;
+}
+
+.textconteiner{
+  padding:0;
+  margin:152px 0 0 165px;
+}
+
+.textconteiner h1{
+  width:445px;
+}
+
+.improve-p{
+  margin-top:24px;
+  width:400px;
+}
+
+.button-p-conteiner button:hover{
+  background: #FF9B62;
+}
+
+.photo-text-conteiner{
+  justify-content: space-between;
+  margin-top:160px;
+  margin-left:165px;
+  margin-right:165px;
+  padding:0;
+  align-items: center;
+  display:flex;
+}
+
+.mechanicaldiv{
+  justify-content: flex-start;
+  padding:0;
+  margin:0;
+  gap:27px;
+  flex-direction: column;
+}
+
+.typemasterdiv{
+  text-align:left;
+  padding:0;
+  margin:0;
+  width:235px;
+}
+
+.keyboardsconteiner{
+  padding:0;
+  margin:0;
+}
+
+.wirelessdiv{
+  margin:0;
+  padding:0;
+}
+
+.left-button{
+  display:block;
+  position:absolute;
+  top:970px;
+}
+
+section{
+ margin-top:170px;
+ gap:0;
+ margin-left:165px;
+}
+
+.card-p{
+  width:255px;
+}
+
+footer{
+  margin-top:128px;
+  margin-bottom:39px;
+}
+
+
+
+
+
+}
